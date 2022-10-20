@@ -1,7 +1,10 @@
-
-.nav{
-    --bs-nav-link-color: #141619;    
-    --bs-nav-link-hover-color: red;
+:root{
+    --button-grey: #363636;
+    --button-orange: #CD3D0F;
+    --b-t-blue: #2D64E7;
+    --button-l-g: #D9DADC;
+    --bg-jumbotron-text-grey: #BEBCBB;
+    --bg-my-footer: #00439C;
 }
 
 *{
@@ -9,17 +12,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body >* {
-    border: 0.5px dashed var(--bs-red);
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
-header>*{
-    border: 0.5px dashed var(--bs-green)
-}
-.nav>*{
-    border: 0.5px dashed var(--bs-red);
-}
-ul{
-    margin: 0;
+
+.nav{
+    --bs-nav-link-color: #141619;    
+    --bs-nav-link-hover-color: #2D64E7;
 }
 
 header{
@@ -28,15 +29,69 @@ header{
     left: 0;
     right: 0;
     z-index: 10;
+    background-color: white;
 }
 section{
     padding: 2rem 0;
 }
-
-.my-img-bg{
-    background-color: blueviolet;
-    margin-top: 5.5rem;
+.logo{
+    width: 80px;
+    padding: .5rem 0;
 }
-.my-card{
+.my-img-chevron{
+    width: 10px;
+    margin: 0 0.2rem;
+}
+.btn-standard{
+    background-color: var(--b-t-blue);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 0.375rem 0.75rem;
+}
+.bg-contrast-grey{
+    background-color: var(--button-grey);
+    color: white;
+}
+.my-img-bg{
+    background-image: url(..//img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 4.5rem;
+    color: white;
 
+}
+.pt-9{
+    padding-top: 11rem;
+}
+.bg-contrast-orange{
+    background-color: var(--button-orange);
+    color: white;
+}
+.bg-contrast-light-g{
+    background-color: var(--button-l-g);
+    color: var(--b-t-blue);
+}
+.bg-contrast-white{
+    background-color: white;
+    color: #141619;
+}
+.burger{
+    font-size: xx-large;
+    color: var(--button-grey);
+}
+.burger:hover{
+    cursor: pointer;
+    color: var(--b-t-blue);
+}
+
+
+.serie-img{
+    width: 200px;
+    border-radius: 20px;
+    padding: 2px;
+}
+.serie-img:hover{
+    cursor: pointer;
+    border: 2px solid var(--b-t-blue);
 }
