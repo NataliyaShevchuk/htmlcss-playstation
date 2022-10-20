@@ -17,6 +17,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
+    padding-top: 90px;
 }
 
 .nav{
@@ -30,10 +31,18 @@ header{
     left: 0;
     right: 0;
     z-index: 10;
+    height: 90px;
     background-color: white;
 }
 section{
     padding: 2rem 0;
+}
+.jumbotron-bg{
+    background-image: url(..//img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 10rem;
 }
 .logo{
     width: 80px;
@@ -54,17 +63,6 @@ section{
     background-color: var(--button-grey);
     color: white;
 }
-.my-img-bg{
-    background-image: url(..//img/jumbo-bg.png);
-    background-position: center;
-    background-size: cover;
-    margin-top: 4.5rem;
-    color: white;
-
-}
-.pt-9{
-    padding-top: 11rem;
-}
 .bg-contrast-orange{
     background-color: var(--button-orange);
     color: white;
@@ -77,6 +75,11 @@ section{
     background-color: white;
     color: #141619;
 }
+
+.bg-footer-blue{
+    background-color: var(--bg-my-footer);
+    color: white;
+}
 .burger{
     font-size: xx-large;
     color: var(--button-grey);
@@ -86,9 +89,13 @@ section{
     color: var(--b-t-blue);
 }
 
+.bg-color-grey-jumb{
+    background-color: var(--bg-jumbotron-text-grey);
+    color: black;
+}
 
 .serie-img{
-    width: 200px;
+    width: 100%;
     border-radius: 20px;
     padding: 2px;
 }
@@ -96,3 +103,30 @@ section{
     cursor: pointer;
     border: 2px solid var(--b-t-blue);
 }
+
+.color-text-grey{
+    color: var(--color-greyy-text);
+}
+.color-blue{
+    color: var(--b-t-blue);
+}
+.my-console-card{
+    border-bottom: 1px solid white;
+    padding: 1rem;
+}
+
+.my-console-card:hover{
+    cursor: pointer;
+    border-bottom: 1px solid var(--b-t-blue);
+}
+.my-img-bg{
+    background-image: url(..//img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.my-card{
+    padding: 0 1rem;
+}
+
+.img-bg
