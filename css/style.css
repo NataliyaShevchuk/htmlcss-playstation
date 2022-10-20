@@ -76,6 +76,10 @@ section{
     color: #141619;
 }
 
+.bg-jumbo-avangers{
+    background-color: #161C3B;
+    color: white;
+}
 .bg-footer-blue{
     background-color: var(--bg-my-footer);
     color: white;
@@ -128,5 +132,14 @@ section{
 .my-card{
     padding: 0 1rem;
 }
-
-.img-bg
+.sie-box{
+    padding: 2rem 0;
+}
+.white{
+    color: white;
+}
+footer ul>li>a{
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+}
